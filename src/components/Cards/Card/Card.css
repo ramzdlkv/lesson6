@@ -1,0 +1,23 @@
+.card-top img{
+    width: 382px;
+    height: 356px;
+
+}
+h3{
+    margin: 0;
+}
+
+
+.card-title{
+    display: flex;
+}
+
+.card-title h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card{
+    background-color: #DDC7BB;
+    border-radius: 18px;
+}
