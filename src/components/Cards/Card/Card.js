@@ -25,9 +25,10 @@ function Card({ elem }) {
                     <img src={size}/>
                     <p>{elem.area}</p>
                 </div>
-                <div className="card-buttton">
-                    <p>{elem.price}</p>
+                <div className="card-button">
                     <button> {elem.action}</button>
+                    <p>{elem.price}</p>
+                    
                 </div>
             </div>
 

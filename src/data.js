@@ -1,7 +1,7 @@
 export const cards = [
   {
     id: 1,
-    image: "https://images.unsplash.com/photo-1600596542815-600f5cd836ce?w=800",
+    image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
     location: "Palo Alto, California",
     rooms: "6 Rooms",
     area: "4,000 sq ft",
@@ -24,33 +24,6 @@ export const cards = [
     rooms: "7 Rooms",
     area: "5,100 sq ft",
     price: "$4,200,000",
-    action: "Sign up"
-  },
-  {
-    id: 4,
-    image: "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800",
-    location: "Mountain View, California",
-    rooms: "4 Rooms",
-    area: "2,800 sq ft",
-    price: "$2,100,000",
-    action: "Sign up"
-  },
-  {
-    id: 5,
-    image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800",
-    location: "Cupertino, California",
-    rooms: "6 Rooms",
-    area: "4,500 sq ft",
-    price: "$3,850,000",
-    action: "Sign up"
-  },
-  {
-    id: 6,
-    image: "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800",
-    location: "Sunnyvale, California",
-    rooms: "5 Rooms",
-    area: "3,000 sq ft",
-    price: "$2,600,000",
     action: "Sign up"
   }
 ];

@@ -1,0 +1,57 @@
+.boxr {
+    background-color: #FEF7F2;
+    margin-top: 199px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reviewList {
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 30px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 64px auto 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 56px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #2B1B12;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.slider div {
+    width: 60px;
+    height: 60px;
+    background-color: #2B1B12;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+   transition: transform 0.3s ease,;
+
+}
+
+
+
+.slider div:hover{
+    transform: scale(1.05 );
+}
+
+.slider {
+    display: flex;
+    gap: 36px;
+    padding-top: 45px;
+    padding-bottom: 56px;
+    
+}

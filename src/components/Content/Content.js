@@ -6,6 +6,10 @@ import handshake from "./images/icons/handshake.png"
 import price from "./images/icons/price.png"
 import service from "./images/icons/service.png"
 import CardList from "../Cards/CardList/CardList";
+import ReviewList from "../Reviews/ReviewList/ReviewList";
+import Help from "../Help/Help";
+import Footer from "../Footer/Footer";
+
 
 function Content() {
   return (
@@ -122,7 +126,9 @@ function Content() {
       </div>
 
       <CardList/>
-    
+      <ReviewList/>
+      <Help/>
+      <Footer/>
     </>
   );
 }

@@ -8,7 +8,7 @@ import "./CardList.css"
 function CardList(){
 return(
     <div>
-        <h1>Our Popular Residences</h1>
+        <h1 className="title">Our Popular Residences</h1>
         <div className="cardList">
             {cards.map((elem)=>{
                 return <Card key={elem.id} elem = {elem}/>  
